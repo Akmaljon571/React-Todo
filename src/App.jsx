@@ -5,7 +5,7 @@ import './App.scss';
 function App() {
   
    const [todo, settodo] = useState(JSON.parse(window.localStorage.getItem('data')) || []);
-   const [bos, setbos] = useState(JSON.parse(window.localStorage.getItem('data')));
+   const [bos, setbos] = useState(JSON.parse(window.localStorage.getItem('data')) || []);
   
     return (
       <>
