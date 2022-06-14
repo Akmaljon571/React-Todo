@@ -1,0 +1,89 @@
+@import '.././scss/var.scss';
+
+.List{
+    list-style: none;
+    padding: 0;
+    margin: 0;  
+    margin-left: 400px; 
+    .Item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 700px;
+        margin: 0 auto;
+        background-color: #333;
+        padding: 20px;
+        border-radius: 5px;
+        font-size: 22px;
+        color: $white;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .edit{
+        padding: 10px;
+        margin-right: 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: $red;
+        color: $white;
+    }
+
+    .del{
+        padding: 10px;
+        margin-right: 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: $green;
+        color: $white;
+    }
+   
+    .toddo{
+        font-size: 30px;
+        font-weight: 900;
+        color:gray;
+    }
+
+    .todd{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 710px;
+        background-color: red;
+        padding: 15px;
+        border-radius: 15px;
+    }
+
+    .chiz{
+        text-decoration: line-through;
+        color: darkgrey;
+        background-color: #eee;
+    }
+
+    .activ{
+        padding: 10px;
+        font-size: 20px;
+        background-color: green;
+        border: none;
+        border-radius: 5px;
+        color: white;
+    }
+
+    .none{
+        padding: 10px;
+        font-size: 20px;
+        background-color: yellow;
+        border: none;
+        border-radius: 5px;
+        color: black;
+    }
+
+    .clear{
+        padding: 10px;
+        font-size: 20px;
+        background-color: darksalmon;
+        border: none;
+        border-radius: 5px;
+        color:black;
+    }
+}

@@ -1,0 +1,29 @@
+@import '.././scss/var.scss';
+
+.form{
+    margin-left: 400px;
+    text-align: center;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 100px;
+    
+    .Kirit{
+        margin-left: 40px;
+        width: 500px;
+        padding: 15px 30px;
+        height: 20px;
+        border-radius: 500px;
+        color: #333;
+        font-size: 25px;
+        border: 2px solid blue;
+    }
+
+    .bos{
+        border: none;
+        padding: 15px;border-radius: 50px;
+        background-color: yellow;   
+        color: blue;
+    }
+}
